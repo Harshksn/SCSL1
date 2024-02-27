@@ -1,0 +1,161 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+}
+
+.nav-btn{
+    color: white;
+    background-color: #000;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 14px 19px;
+    margin: 3px;
+}
+
+#intro{
+    background-color: beige;
+    height: 47%;
+    width: 100%;
+    padding: 50px 70px;
+
+}
+
+h1{
+    font-size: 130px;
+    letter-spacing: -3px;
+    line-height: 120px;
+}
+
+#intro-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#main i{
+    font-size: 35px;
+    margin-right: 5px;
+}
+
+h3{
+    font-size: 30px;
+    line-height: 65px;
+}
+
+#imag{
+    height: 90vh;
+    width: 100%;
+    /* background-color: aqua; */
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero.webp);
+    background-size: cover;
+}
+
+#about{
+    display: flex;
+    margin: 30px;
+}
+
+#about-1{
+    width: 63%;
+    font-size: 50px;
+    margin: 10px;
+    border-right: 1.5px solid rgb(0, 0, 0);
+}
+
+#about-2{
+    display: flex;
+    flex-direction: column;
+    margin: 35px;
+    justify-content: space-between;
+}
+
+#about-2-1{
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+#icon-about{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#work{
+    display: flex;
+    margin: 30px;
+}
+
+#work-1{
+    width: 30%;
+    display: flex;
+    padding: 0px 10px;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: 600;
+    border-right: 1px solid black;
+}
+
+#work-2{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    width: 70%;
+}
+
+.workSec{
+    width: 50%;
+    margin: 25px 15px ;
+    padding: 5px;
+    padding-bottom: 15px;
+}
+
+.workSec h3{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.workSec p{
+    font-size: 20px;
+    color: rgb(140, 138, 138);
+    font-weight: 300;
+
+}
+
+#work-2-1{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+#work-2-2{
+    display: flex;
+
+}
+
+#work-2-2-1, #work-2-1-1{
+    border-right: 1px solid black;
+}
